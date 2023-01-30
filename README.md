@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Chat
+Next.JS + React.
+
+https://www.cometchat.com/tutorials/how-to-build-a-chat-app-with-websockets-and-node-js
+
+https://medium.com/@bootcampmillionaire/what-i-learned-about-websockets-by-building-a-real-time-chat-application-using-socket-io-3d9e163e504
+
 ## Available Scripts
 
 In the project directory, you can run:
