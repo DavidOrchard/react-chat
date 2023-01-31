@@ -11,9 +11,14 @@ const SocketHandler = (req, res) => {
     io.on('connection', socket => {
         console.log('connection');
         socket.on('input-change', (msg) => {
-            console.log('message', msg);
+            console.log('input message', msg);
             socket.broadcast.emit('update-input', msg)
-        })
+        });
+
+        socket.on('message-send', (msg) => {
+          console.log('message', msg);
+          socket.broadcast.emit('update-messages', msg)
+      })
       })
   }
   res.end();
